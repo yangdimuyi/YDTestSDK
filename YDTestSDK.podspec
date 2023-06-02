@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YDTestSDK"
-  spec.version      = "1.0.7"
+  spec.version      = "1.1.0"
   spec.summary      = "TestSDK is a SDK from Sigmob providing AD service."
   spec.description  = <<-DESC
   这就是一个测试，没别的，你信不信？
