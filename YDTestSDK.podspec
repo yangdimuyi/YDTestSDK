@@ -9,8 +9,8 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YDTestSDK"
-  spec.version      = "1.1.3"
-  spec.summary      = "YDTestSDK is a SDK"
+  spec.version      = "1.1.4"
+  spec.summary      = "YDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDKYDTestSDK is a SDK"
   spec.description  = <<-DESC
   这就是一个测试，没别的，你信不信？
                    DESC
@@ -36,9 +36,9 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "Classes/**/*.h"
 
-  spec.resource  = "FrameworkFramework/YDTestSDK.bundle"
+  spec.resource  = "SDK/YDTestSDK.bundle"
 
-  spec.ios.vendored_frameworks = 'FrameworkFramework/YDTestSDK.framework'
+  spec.ios.vendored_frameworks = 'SDK/YDTestSDK.framework'
   
   spec.frameworks = 'AppTrackingTransparency','AssetsLibrary','AdSupport','Audiotoolbox','AddressBook','AVKit','AVFoundation','Accelerate','CoreServices','CoreImage','CoreLocation','CoreTelephony','CoreText','CoreMotion','CoreGraphics','CoreMedia','CoreData','DeviceCheck','Foundation','ImageIO','JavaScriptCore','MobileCoreServices','MapKit','MessageUI','MediaPlayer','Photos','QuartzCore','QuickLook','SystemConfiguration','Security','StoreKit','SafariServices','UIKit','WebKit'
   
