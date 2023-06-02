@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YDTestSDK"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "TestSDK"
 
   # This description is used to generate tags and improve search results.
@@ -117,7 +117,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.ios.vendored_frameworks = 'FrameworkFramework/AdWangMaiSDK.framework'
+  spec.ios.vendored_frameworks = 'FrameworkFramework/YDTestSDK.framework'
   spec.frameworks = 'AppTrackingTransparency.framework','AssetsLibrary.framework','AdSupport.framework','Audiotoolbox.framework','AddressBook.framework','AVKit.framework','AVFoundation.framework','Accelerate.framework','CoreServices.framework','CoreImage.framework','CoreLocation.framework','CoreTelephony.framework','CoreText.framework','CoreMotion.framework','CoreGraphics.framework','CoreMedia.framework','CoreData.framework','DeviceCheck.framework','Foundation.framework','ImageIO.framework','JavaScriptCore.framework','MobileCoreServices.framework','MapKit.framework','MessageUI.framework','MediaPlayer.framework','Photos.framework','QuartzCore.framework','QuickLook.framework','SystemConfiguration.framework','Security.framework','StoreKit.framework','SafariServices.framework','UIKit.framework','WebKit.framework'
 
   # spec.library   = "iconv"
