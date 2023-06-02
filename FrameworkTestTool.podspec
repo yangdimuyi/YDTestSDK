@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "sdkss"
-  spec.version      = "1.0.2"
+  spec.name         = "FrameworkTestTool"
+  spec.version      = "1.0.3"
   spec.summary      = "TestSDK"
 
   # This description is used to generate tags and improve search results.
@@ -121,7 +121,7 @@ Pod::Spec.new do |spec|
   spec.frameworks = 'AppTrackingTransparency.framework','AssetsLibrary.framework','AdSupport.framework','Audiotoolbox.framework','AddressBook.framework','AVKit.framework','AVFoundation.framework','Accelerate.framework','CoreServices.framework','CoreImage.framework','CoreLocation.framework','CoreTelephony.framework','CoreText.framework','CoreMotion.framework','CoreGraphics.framework','CoreMedia.framework','CoreData.framework','DeviceCheck.framework','Foundation.framework','ImageIO.framework','JavaScriptCore.framework','MobileCoreServices.framework','MapKit.framework','MessageUI.framework','MediaPlayer.framework','Photos.framework','QuartzCore.framework','QuickLook.framework','SystemConfiguration.framework','Security.framework','StoreKit.framework','SafariServices.framework','UIKit.framework','WebKit.framework'
 
   # spec.library   = "iconv"
-  spec.libraries = "libz.tbd","libresolv.9.tbd","libxml2.tbd","libc++.tbd","libc++abi.tbd","libz.1.2.5.tbd","libsqlite3.0.tbd","libsqlite3.tbd","libbz2.1.0.tbd","libbz2.tbd","libiconv.tbd"
+  spec.libraries = "z.tbd","resolv.9.tbd","xml2.tbd","c++.tbd","c++abi.tbd","z.1.2.5.tbd","sqlite3.0.tbd","sqlite3.tbd","bz2.1.0.tbd","bz2.tbd","iconv.tbd"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
