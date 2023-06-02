@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "FrameworkTestTool"
-  spec.version      = "1.0.3"
+  spec.name         = "YDTestSDK"
+  spec.version      = "1.0.4"
   spec.summary      = "TestSDK"
 
   # This description is used to generate tags and improve search results.
