@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YDTestSDK"
-  spec.version      = "1.1.1"
+  spec.version      = "1.1.2"
   spec.summary      = "YDTestSDK is a SDK"
   spec.description  = <<-DESC
   这就是一个测试，没别的，你信不信？
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.vendored_frameworks = 'FrameworkFramework/YDTestSDK.framework'
   
-  spec.frameworks = 'AppTrackingTransparency.framework','AssetsLibrary.framework','AdSupport.framework','Audiotoolbox.framework','AddressBook.framework','AVKit.framework','AVFoundation.framework','Accelerate.framework','CoreServices.framework','CoreImage.framework','CoreLocation.framework','CoreTelephony.framework','CoreText.framework','CoreMotion.framework','CoreGraphics.framework','CoreMedia.framework','CoreData.framework','DeviceCheck.framework','Foundation.framework','ImageIO.framework','JavaScriptCore.framework','MobileCoreServices.framework','MapKit.framework','MessageUI.framework','MediaPlayer.framework','Photos.framework','QuartzCore.framework','QuickLook.framework','SystemConfiguration.framework','Security.framework','StoreKit.framework','SafariServices.framework','UIKit.framework','WebKit.framework'
+  spec.frameworks = 'AppTrackingTransparency','AssetsLibrary','AdSupport','Audiotoolbox','AddressBook','AVKit','AVFoundation','Accelerate','CoreServices','CoreImage','CoreLocation','CoreTelephony','CoreText','CoreMotion','CoreGraphics','CoreMedia','CoreData','DeviceCheck','Foundation','ImageIO','JavaScriptCore','MobileCoreServices','MapKit','MessageUI','MediaPlayer','Photos','QuartzCore','QuickLook','SystemConfiguration','Security','StoreKit','SafariServices','UIKit','WebKit'
   
   spec.libraries = "z.tbd","resolv.9.tbd","xml2.tbd","c++.tbd","c++abi.tbd","z.1.2.5.tbd","sqlite3.0.tbd","sqlite3.tbd","bz2.1.0.tbd","bz2.tbd","iconv.tbd"
   
